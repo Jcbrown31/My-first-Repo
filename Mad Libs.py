@@ -1,9 +1,8 @@
+import time
+
 print("Person")
 person1 = input()
 
-print("Test")
-test1 = input()
-'''
 print("profession")
 profession1 = input()
 
@@ -34,4 +33,5 @@ print("Meet our hero " + person1 +
       + superheroName1 + ", a" + color1 + adjective1 +
       " giant capable of great desctructtion. He/she " + adverb1 +
       " battles the military with their signifigant other " + person2 )
-'''
+
+time.sleep(100)
